@@ -78,6 +78,16 @@ header {
   font-size: 20px;
   color: white;
 }
+.join-now {
+  border-radius: 9px;
+  background-color: black;
+  /* border-radius: 5px; */
+  font-size: 15px;
+  font-weight: 700px;
+  color: #f8f8f8;
+  border: 0px;
+  padding: 15px 30px;
+}
 
 /* portfolio */
 /* 
@@ -122,7 +132,7 @@ header {
 
 /* place desing */
 .join {
-  font-size: 30px;
+  font-size: 20px;
   padding: 50px;
   border-radius: 10px;
   align-items: center;
@@ -159,19 +169,20 @@ header {
   border-radius: 10px;
   background: rgba(255, 0, 0, 0.05);
   background-size: cover;
-  height: 800px;
+  height: 600px;
 }
+
 .nws-letter {
   color: #070211;
 
   text-align: center;
 
-  font-size: 90px;
+  font-size: 30px;
 }
 .amet-consec {
   color: rgba(7, 2, 17, 0.6);
   text-align: center;
-  font-size: 30px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 400;
   margin: 20px;
@@ -195,20 +206,25 @@ header {
   border: none;
   border-radius: 0 30px 30px 0;
 }
+.social-links {
+  margin: 0 auto;
+  size: 5px;
+}
 
 /* footer style */
 footer {
   height: 500px;
   margin-left: 10px;
-  display: flex;
+
   background: #b9a3e5;
 }
+
 .container {
   font-size: 20px;
   color: #070211;
 }
-.sec-last {
-  margin: 4px;
-}
-.socail-info {
+
+.all-rights {
+  color: #fff;
+  align-items: end;
 }
